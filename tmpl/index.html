@@ -1,0 +1,12 @@
+<!DOCUTYPE html>
+<html>
+    <head>
+        <title>test_site</title>
+        <link rel="stylesheet" type="text/css" href="static/styles.css" />
+        <script type="text/javascript" src="static/htmx.min.js"></script>
+    </head>
+    <body>
+        <div id="main">
+        <div hx-get="/second" hx-swap="outerHTML">first</div>
+        </div>
+    </body>

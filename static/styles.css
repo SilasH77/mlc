@@ -1,0 +1,14 @@
+:root {
+  background-color: #191724; /* rosePine base */
+}
+* {
+  color: #e0def4; /* rosePine text */
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  align-items: center;
+  user-select: none;
+}
